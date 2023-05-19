@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    font-size: 16px;
+    font-family: 'Outfit',sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container-full{
+    width: 375px;
+    height: auto;
+    background: white;
+   border-radius: 15px;
+}
+.hero-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container-bottom .title{
+    color: hsl(223, 47%, 23%);
+    padding-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container-bottom .text{
+    padding-top: 15px;
+    color: hsl(224, 23%, 55%);
+    font-size: 1.0rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card{
+    display: flex;
+    background-color: rgb(173, 188, 250,0.1);
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    border-radius: 15px;
+}
+.card img{
+    width: 45x;
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+}
+.card .pack{
+    color:hsl(223, 47%, 23%) ;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card .money{
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+    line-height: 0.5rem;
+}
+ .card .change{
+    margin-left: 50px;
+    color: blue;
+    display: inline-block;
+    align-items: center;
+}
+.btn-primary{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.main-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    background:  hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(15px  45px 9px -25px rgb(43, 20, 149));
+    cursor: pointer;
+}
+.order-cancel{
+    color:  hsl(224, 23%, 55%);
+    font-weight: bold;
+}
